@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIScrollView *verticalScrollView;
+
+@property (weak, nonatomic) IBOutlet UIView *scrollViewContainer;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *horizontalScrollView;
+
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+
 @end

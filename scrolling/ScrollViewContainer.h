@@ -10,4 +10,6 @@
 
 @interface ScrollViewContainer : UIView
 
+@property (nonatomic, strong) IBOutlet UIScrollView *innerScrollView;
+
 @end

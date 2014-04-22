@@ -21,6 +21,7 @@
 		4F5B632F1906533F002E9870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5B63111906533F002E9870 /* UIKit.framework */; };
 		4F5B63371906533F002E9870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B63351906533F002E9870 /* InfoPlist.strings */; };
 		4F5B63391906533F002E9870 /* scrollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B63381906533F002E9870 /* scrollingTests.m */; };
+		4F5B6344190654B2002E9870 /* ScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B6343190654B2002E9870 /* ScrollViewContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4F5B63341906533F002E9870 /* scrollingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollingTests-Info.plist"; sourceTree = "<group>"; };
 		4F5B63361906533F002E9870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F5B63381906533F002E9870 /* scrollingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollingTests.m; sourceTree = "<group>"; };
+		4F5B6342190654B2002E9870 /* ScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewContainer.h; sourceTree = "<group>"; };
+		4F5B6343190654B2002E9870 /* ScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4F5B631F1906533F002E9870 /* Main.storyboard */,
 				4F5B63221906533F002E9870 /* ViewController.h */,
 				4F5B63231906533F002E9870 /* ViewController.m */,
+				4F5B6342190654B2002E9870 /* ScrollViewContainer.h */,
+				4F5B6343190654B2002E9870 /* ScrollViewContainer.m */,
 				4F5B63251906533F002E9870 /* Images.xcassets */,
 				4F5B63141906533F002E9870 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F5B63241906533F002E9870 /* ViewController.m in Sources */,
+				4F5B6344190654B2002E9870 /* ScrollViewContainer.m in Sources */,
 				4F5B631E1906533F002E9870 /* AppDelegate.m in Sources */,
 				4F5B631A1906533F002E9870 /* main.m in Sources */,
 			);
